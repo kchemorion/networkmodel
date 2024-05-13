@@ -1,4 +1,3 @@
-```markdown
 # Mendoza Project
 
 ## Overview

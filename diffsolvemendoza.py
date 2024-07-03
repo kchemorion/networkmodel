@@ -181,7 +181,7 @@ plt.title('Stimuli IL-1β', fontsize=14)
 plt.xlabel('Responses', fontsize=14)
 plt.ylabel('Activation Level', fontsize=14)
 plt.ylim([1e-9, 1.2])
-plt.yscale('log')
+# plt.yscale('log')
 plt.savefig('stimuli_IL-1β.png', bbox_inches='tight')  # Save plot to file
 
 # Save table data to an Excel file

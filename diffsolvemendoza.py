@@ -139,14 +139,14 @@ colors = [
     [0.4940, 0.1840, 0.5560]
 ]
 
-plt.figure()
+plt.figure(figsize=(20, 8))  # Adjust the figure size to make it wider
 b = plt.bar(range(len(xbaseline)), xbaseline, color=colors)
 plt.xticks(range(len(node_names)), node_names, rotation=90, fontsize=14, fontweight='bold')
 plt.title('Median Baseline', fontsize=14)
 plt.xlabel('Responses', fontsize=14)
 plt.ylabel('Activation Level', fontsize=14)
 plt.ylim([0, 1.05])
-plt.savefig('median_baseline.png', bbox_inches='tight') 
+plt.savefig('median_baseline.png', bbox_inches='tight')  # Save plot to file
 
 # Save table data to an Excel file
 filename = 'Xbaseline.xlsx'
@@ -173,7 +173,7 @@ xbaseline1 = np.mean(xout_final, axis=0)
 xdiff = xbaseline1 - xout[-1, :]
 
 # Plot Stimuli in bar plot
-plt.figure()
+plt.figure(figsize=(20, 8))  # Adjust the figure size to make it wider
 plt.bar(range(len(xbaseline)), xbaseline, 0.8, color=[0.3010, 0.7450, 0.9330])
 plt.bar(range(len(xbaseline1)), xbaseline1, 0.3, color=[1, 1, 0])
 plt.xticks(range(len(node_names)), node_names, rotation=90, fontsize=14, fontweight='bold')
@@ -181,7 +181,7 @@ plt.title('Stimuli IL-1β', fontsize=14)
 plt.xlabel('Responses', fontsize=14)
 plt.ylabel('Activation Level', fontsize=14)
 plt.ylim([1e-9, 1.2])
-# plt.yscale('log')
+plt.yscale('log')
 plt.savefig('stimuli_IL-1β.png', bbox_inches='tight')  # Save plot to file
 
 # Save table data to an Excel file

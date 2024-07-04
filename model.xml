@@ -33,38 +33,38 @@
       <compartment id="default" name="Default Compartment" size="1" units="dimensionless_unit" constant="true"/>
     </listOfCompartments>
     <listOfSpecies>
-      <species id="ACAN" name="ACAN" compartment="default" initialConcentration="0.841458626224238" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="COL2A" name="COL2A" compartment="default" initialConcentration="0.173594175193986" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="COL10A1" name="COL10A1" compartment="default" initialConcentration="0.665925350437965" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="COL1A" name="COL1A" compartment="default" initialConcentration="0.960650654649736" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="IFN_gamma" name="IFN-γ" compartment="default" initialConcentration="0.69399456873298" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TNF" name="TNF" compartment="default" initialConcentration="0.994645000969081" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="IL_12A" name="IL-12A" compartment="default" initialConcentration="0.466495425887476" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="IL_17A" name="IL-17A" compartment="default" initialConcentration="0.192281859798967" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="IL_18" name="IL-18" compartment="default" initialConcentration="0.0555058117487696" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="IL_1alpha" name="IL-1α" compartment="default" initialConcentration="0.860966065946611" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="IL_1beta" name="IL-1β" compartment="default" initialConcentration="0.773839148684621" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="IL_6" name="IL-6" compartment="default" initialConcentration="0.587954093114624" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="IL_8" name="IL-8" compartment="default" initialConcentration="0.440813427482493" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="IL_1RA" name="IL-1RA" compartment="default" initialConcentration="0.287738537677405" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="IL_4" name="IL-4" compartment="default" initialConcentration="0.843332303769499" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="IL_10" name="IL-10" compartment="default" initialConcentration="0.213431802073821" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TGF_beta" name="TGF-β" compartment="default" initialConcentration="0.541884654664574" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="IGF1" name="IGF1" compartment="default" initialConcentration="0.540972982855911" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="CSF2" name="CSF2" compartment="default" initialConcentration="0.180283828650372" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="GDF5" name="GDF5" compartment="default" initialConcentration="0.284735369279418" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="PGRN" name="PGRN" compartment="default" initialConcentration="0.920409465091036" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="CCL" name="CCL" compartment="default" initialConcentration="0.470963157417058" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="CCL22" name="CCL22" compartment="default" initialConcentration="0.220761401442402" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MMP1" name="MMP1" compartment="default" initialConcentration="0.921144584358282" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MMP13" name="MMP13" compartment="default" initialConcentration="0.696809999797982" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MMP2" name="MMP2" compartment="default" initialConcentration="0.139438002795561" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MMP3" name="MMP3" compartment="default" initialConcentration="0.0168418473015234" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MMP9" name="MMP9" compartment="default" initialConcentration="0.326438864302875" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="VEGF" name="VEGF" compartment="default" initialConcentration="0.136905992723408" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="ADAMTS4_5" name="ADAMTS4/5" compartment="default" initialConcentration="0.774643144551817" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TIMP1_2" name="TIMP1/2" compartment="default" initialConcentration="0.415698914034689" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TIMP3" name="TIMP3" compartment="default" initialConcentration="0.466447197121299" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="ACAN" name="ACAN" compartment="default" initialConcentration="0.124474481825433" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="COL2A" name="COL2A" compartment="default" initialConcentration="0.57768489281797" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="COL10A1" name="COL10A1" compartment="default" initialConcentration="0.0199175267332218" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="COL1A" name="COL1A" compartment="default" initialConcentration="0.756735026489244" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="IFN_gamma" name="IFN-γ" compartment="default" initialConcentration="0.385528017824858" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TNF" name="TNF" compartment="default" initialConcentration="0.242055398721897" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="IL_12A" name="IL-12A" compartment="default" initialConcentration="0.364018882057619" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="IL_17A" name="IL-17A" compartment="default" initialConcentration="0.10389960168833" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="IL_18" name="IL-18" compartment="default" initialConcentration="0.196392256681371" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="IL_1alpha" name="IL-1α" compartment="default" initialConcentration="0.0213587804992517" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="IL_1beta" name="IL-1β" compartment="default" initialConcentration="0.864763827973558" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="IL_6" name="IL-6" compartment="default" initialConcentration="0.675385391287549" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="IL_8" name="IL-8" compartment="default" initialConcentration="0.782046880665663" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="IL_1RA" name="IL-1RA" compartment="default" initialConcentration="0.567685957312452" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="IL_4" name="IL-4" compartment="default" initialConcentration="0.106788847390067" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="IL_10" name="IL-10" compartment="default" initialConcentration="0.90617019258096" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TGF_beta" name="TGF-β" compartment="default" initialConcentration="0.861111547821175" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="IGF1" name="IGF1" compartment="default" initialConcentration="0.373638390318441" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="CSF2" name="CSF2" compartment="default" initialConcentration="0.445962634681238" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="GDF5" name="GDF5" compartment="default" initialConcentration="0.963622064129685" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="PGRN" name="PGRN" compartment="default" initialConcentration="0.897738598096289" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="CCL" name="CCL" compartment="default" initialConcentration="0.059003868128025" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="CCL22" name="CCL22" compartment="default" initialConcentration="0.871374741210431" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MMP1" name="MMP1" compartment="default" initialConcentration="0.0906126730413482" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MMP13" name="MMP13" compartment="default" initialConcentration="0.732349894483743" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MMP2" name="MMP2" compartment="default" initialConcentration="0.098749452672519" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MMP3" name="MMP3" compartment="default" initialConcentration="0.226979664710708" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MMP9" name="MMP9" compartment="default" initialConcentration="0.0159047640820991" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="VEGF" name="VEGF" compartment="default" initialConcentration="0.306012426137341" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="ADAMTS4_5" name="ADAMTS4/5" compartment="default" initialConcentration="0.436033435769456" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TIMP1_2" name="TIMP1/2" compartment="default" initialConcentration="0.330079208553534" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TIMP3" name="TIMP3" compartment="default" initialConcentration="0.746442022047792" substanceUnits="concentration_unit" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
     </listOfSpecies>
     <listOfParameters>
       <parameter id="gamma" name="Decay Rate" value="1" units="rate_constant_unit" constant="true"/>
